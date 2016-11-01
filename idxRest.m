@@ -5,7 +5,7 @@ function ret = idxRest( xx, prev, post )
 
 if ndims(xx) <= 2
     [r, c] = size(xx);
-    if r == 1
+    if c == 1
         ret = '';
     else
         ret = ':';
